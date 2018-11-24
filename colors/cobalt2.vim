@@ -357,7 +357,7 @@ call s:X("Visual","",g:darker_blue,"","","Black")
 
 call s:X("Cursor",g:cobalt_bg,g:yellow,"","","")
 call s:X("CursorColumn","",g:yellow,"","","Black")
-call s:X("CursorLine","",g:yellow,"","","Black")
+call s:X("CursorLine",g:dark_orange,g:darker_blue,"","","Black")
 call s:X("CursorLineNr",g:light_blue,"","none","White","")
 call s:X("LineNr",g:dark_grey,g:cobalt_bg,"none","Black","")
 
