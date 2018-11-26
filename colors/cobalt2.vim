@@ -377,7 +377,7 @@ call s:X("Search",g:black,g:light_yellow,"underline","Magenta","")
 
 " Spell Checking
 
-call s:X("SpellBad",g:dark_red,"","underline","","DarkRed")
+call s:X("SpellBad",g:red,"","underline","","Red")
 call s:X("SpellCap","",g:darkest_blue,"underline","","Blue")
 call s:X("SpellRare","",g:aubergine,"underline","","DarkMagenta")
 call s:X("SpellLocal","",g:darkest_green,"underline","","Green")
