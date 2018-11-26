@@ -500,9 +500,9 @@ hi! link coffeeReservedError ErrorMsg
 hi! link coffeeSpaceError ErrorMsg
 
 " HTML
-call s:X("htmlTag",g:lightest_grey,"","","","")
-call s:X("htmlEndTag",g:lightest_grey,"","","","")
-call s:X("htmlTagName",g:light_blue,"","","","")
+call s:X("htmlTag",g:blue,"","","","")
+call s:X("htmlEndTag",g:blue,"","","","")
+call s:X("htmlTagName",g:blue,"","","","")
 call s:X("htmlSpecialTagName",g:blue,"","","","")
 
 call s:X("htmlArg",g:dark_orange,"","","","")
