@@ -368,7 +368,7 @@ call s:X("WildMenu",g:pale_pink,g:darkest_grey,"","Magenta","")
 
 call s:X("Folded",g:light_grey,g:darker_grey,"italic","Black","")
 call s:X("FoldColumn",g:dark_grey,g:black,"","","Black")
-call s:X("SignColumn",g:dark_grey,g:darkest_grey,"","","Black")
+call s:X("SignColumn","",g:cobalt_bg,"","","Black")
 call s:X("ColorColumn","",g:black,"","","Black")
 
 call s:X("Title",g:dirty_green,"","bold","Green","")
@@ -377,7 +377,7 @@ call s:X("Search",g:black,g:light_yellow,"underline","Magenta","")
 
 " Spell Checking
 
-call s:X("SpellBad",g:red,"","underline","","Red")
+call s:X("SpellBad","",g:darker_red,"","","")
 call s:X("SpellCap","",g:darkest_blue,"underline","","Blue")
 call s:X("SpellRare","",g:aubergine,"underline","","DarkMagenta")
 call s:X("SpellLocal","",g:darkest_green,"underline","","Green")
